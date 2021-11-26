@@ -1,6 +1,6 @@
 rebuild_master:
   steps:
-    - rebuild_package
+    - rebuild_package:
         project: home:moja2
         package: foo
   filters:
