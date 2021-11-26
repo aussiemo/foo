@@ -1,7 +1,5 @@
-rebuild_master:
+workflow:
   steps:
     - rebuild_package:
         project: home:moja2
         package: foo
-  filters:
-    event: push
